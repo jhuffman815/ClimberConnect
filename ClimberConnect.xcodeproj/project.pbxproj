@@ -15,6 +15,7 @@
 		691148C9240E17A4009701F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691148C7240E17A4009701F4 /* LaunchScreen.storyboard */; };
 		691148D4240E17A5009701F4 /* ClimberConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691148D3240E17A5009701F4 /* ClimberConnectTests.swift */; };
 		691148DF240E17A5009701F4 /* ClimberConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691148DE240E17A5009701F4 /* ClimberConnectUITests.swift */; };
+		691148ED240F3BDB009701F4 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691148EC240F3BDB009701F4 /* Member.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		691148DA240E17A5009701F4 /* ClimberConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimberConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		691148DE240E17A5009701F4 /* ClimberConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimberConnectUITests.swift; sourceTree = "<group>"; };
 		691148E0240E17A5009701F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		691148EC240F3BDB009701F4 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				691148BE240E179F009701F4 /* SceneDelegate.swift */,
 				691148C0240E179F009701F4 /* ViewController.swift */,
 				691148C2240E179F009701F4 /* Main.storyboard */,
+				691148EC240F3BDB009701F4 /* Member.swift */,
 				691148C5240E17A4009701F4 /* Assets.xcassets */,
 				691148C7240E17A4009701F4 /* LaunchScreen.storyboard */,
 				691148CA240E17A4009701F4 /* Info.plist */,
@@ -262,6 +265,7 @@
 				691148C1240E179F009701F4 /* ViewController.swift in Sources */,
 				691148BD240E179F009701F4 /* AppDelegate.swift in Sources */,
 				691148BF240E179F009701F4 /* SceneDelegate.swift in Sources */,
+				691148ED240F3BDB009701F4 /* Member.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
