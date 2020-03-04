@@ -8,14 +8,16 @@
 
 import SwiftUI
 
-struct Member: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct Member_Previews: PreviewProvider {
-    static var previews: some View {
-        Member()
-    }
+struct Member: Codable {
+    var id: UUID
+    var isActive: Bool
+    var name: String
+    var age: Int
+    var company: String
+    var email: String
+    var address: String
+    var about: String
+    var registered: Date
+    var tags: [String]
+    var friends: [Connection]
 }
